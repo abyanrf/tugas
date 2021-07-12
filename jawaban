@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>ok</title>
+        <script>
+            var name = "abyan rafi";
+            var sekolah = "pondok IT";
+            var teks1 = "assalamualaikum ana baru belajar pemrograman";
+            var teks2 = "ana sangat semangat belajar pemrograman";
+            document.write("nama santri: " + name + "<br>")
+            document.write("tempat: " + sekolah + "<br>")
+            document.write("description:" + teks1 + " <br>")
+            document.write(teks2)
+
+        </script>
+    </head>
