@@ -8,6 +8,7 @@
 </head>
 <body>
     <script>
+        var nama = prompt("masukan nama anda")
        var nilai = prompt("masukan nilai anda",0);
 
        if(nilai > 70){
@@ -17,7 +18,7 @@
        }
 
 
-       document.write("<p>terimakasih</p>");
+       document.write("terima kasih")
     </script>
 </body>
 </html>
