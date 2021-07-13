@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>0k.com</title> 
+</head>
+<body>
+    <script>
+       var nilai = prompt("masukan nilai anda",0);
+
+       if(nilai > 70){
+           document.write("<p>" + "selamat anda lulus" + "</p>");
+       } else if(nilai < 70){
+           document.write("<p> " + "mohon maaf anda tidak lulus" + "</p>");
+       }
+
+
+       document.write("<p>terimakasih</p>");
+    </script>
+</body>
+</html>
