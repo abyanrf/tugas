@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script> 
+    var bil = 5;
+    switch(bil % 2 == 0){
+      case 0:  
+        console.log("bilangan genap")
+      default:
+          console.log("bilangan ganjil")  
+        
+    }
+    </script>
+</body>
+</html>
