@@ -1,0 +1,5 @@
+for(var angka = 1; angka <= 100; angka++){
+    if((angka%2)==1){
+      document.write(angka +' gajil' + '<br>');
+    }
+}
