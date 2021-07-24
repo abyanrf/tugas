@@ -1,0 +1,18 @@
+var nilai = prompt('masukan nilai!');
+
+switch(nilai){
+    case '>90' :
+        alert('grade = A');
+        break;
+    case '>80' :
+        alert('grade = B+');
+        break;
+    case '>70' :
+        alert('grade = B');
+       break;
+  
+    default :
+        alert('grade = F');
+        break;
+         
+  }
