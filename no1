@@ -1,0 +1,11 @@
+var nilai = prompt('masukan  nilai !');
+
+if( nilai >90){
+   alert('grade = A');
+} else if( nilai >80){
+    alert('grade = B+')
+}else if( nilai >70){
+    alert('grade = B')
+}else {
+    alert('grade = F')
+}
