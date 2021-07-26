@@ -1,0 +1,7 @@
+ var p = prompt('masukan panjang');
+ var l = prompt('masukan lebar')
+
+function luper(p,l){
+    document.write(p * l)
+}
+ luper(p,l)
